@@ -1,5 +1,5 @@
 #!/bin/bash
-# Docker 多平台镜像备份脚本（支持 tag 跳过、速率限制、拉取限额保护）
+# Docker 多平台镜像备份脚本（支持 tag 跳过、digest 比对、速率限制保护）
 set -euo pipefail
 
 # 加载环境变量
@@ -96,15 +96,23 @@ while IFS= read -r line || [[ -n "$line" ]]; do
     ((page++))
   done
 
+  # 遍历处理 tag
   for tag in "${tags[@]}"; do
+    src_digest=$(docker buildx imagetools inspect "docker.io/$source_repo:$tag" 2>/dev/null | awk '/Digest:/ {print $2; exit}')
+    tgt_digest=$(docker buildx imagetools inspect "$target_full:$tag" 2>/dev/null | awk '/Digest:/ {print $2; exit}')
+
     if [[ " ${exist_tags[*]} " =~ " $tag " ]]; then
-      echo "✅ 跳过已存在标签: $tag"
-      continue
+      if [[ -n "$src_digest" && "$src_digest" == "$tgt_digest" ]]; then
+        echo "✅ 跳过已存在且一致的标签: $tag ($src_digest)"
+        continue
+      else
+        echo "♻️ 检测到 $tag 已更新，准备重新同步"
+      fi
     fi
 
     echo "🔄 处理标签: $tag"
 
-    # 尝试获取平台信息
+    # 获取平台信息
     if pf=$(docker buildx imagetools inspect "docker.io/$source_repo:$tag" 2>/tmp/pf_err); then
       platforms=$(echo "$pf" | awk '/Platform:/ {print $NF}' | sort | uniq | paste -sd, -)
     else
@@ -113,7 +121,7 @@ while IFS= read -r line || [[ -n "$line" ]]; do
     fi
     echo "   ➤ 平台: $platforms"
 
-    # 推送镜像（检测 429）
+    # 推送镜像
     err_msg=$(docker buildx imagetools create --tag "$target_full:$tag" \
               "docker.io/$source_repo:$tag" 2>&1 >/dev/null) || {
       echo "❌ 推送失败：$target_full:$tag"
@@ -123,7 +131,7 @@ while IFS= read -r line || [[ -n "$line" ]]; do
       fi
       continue
     }
-    echo "✅ 已推送到 $target_full:$tag"
+    echo "✅ 已推送到 $target_full:$tag (digest: $src_digest)"
     sleep 1
   done
 
