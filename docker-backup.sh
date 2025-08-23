@@ -4,7 +4,7 @@ set -euo pipefail
 
 # --- 新增：定义可变标签列表 ---
 # 你可以在这里添加或修改你认为内容会变化的标签
-MUTABLE_TAGS=("latest" "nightly" "dev" "stable" "edge")
+MUTABLE_TAGS=("latest" "debian" "stable" "edge")
 
 # --- 缓存文件定义 ---
 DIGEST_CACHE_FILE="digest_cache.json"
