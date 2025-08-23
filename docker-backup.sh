@@ -211,7 +211,48 @@ while IFS= read -r line || [[ -n "$line" ]]; do
   fi
 
   # ... (描述信息同步逻辑保持不变) ...
+  # 同步描述信息
+  echo "📝 同步描述信息到目标仓库..."
+  repo_info=$(retry_curl -s -H "Authorization: JWT $TOKEN" \
+    "https://hub.docker.com/v2/repositories/$namespace/$image/")
+  src_desc=$(echo "$repo_info" | jq -r .description)
+  src_full_desc=$(echo "$repo_info" | jq -r .full_description)
+  desc_json=$(jq -n --arg d "$src_desc" --arg f "$src_full_desc" \
+    '{"description": $d, "full_description": $f, "is_private": false}')
 
+  status_code=$(retry_curl -s -o /tmp/desc_sync.json -w "%{http_code}" \
+    -X PATCH -H "Authorization: JWT $TOKEN" \
+    -H "Content-Type: application/json" \
+    -d "$desc_json" \
+    "https://hub.docker.com/v2/repositories/$DOCKER_USER/$target_repo/")
+
+  if [[ "$status_code" == "200" ]]; then
+    echo "✅ 描述同步成功"
+  elif [[ "$status_code" == "403" ]]; then
+    echo "⚠ 描述同步失败（403 Forbidden），尝试初始化仓库..."
+    init_payload='{"description":"初始化","full_description":"初始化","is_private":false}'
+    curl -s -X PATCH -H "Authorization: JWT $TOKEN" \
+         -H "Content-Type: application/json" \
+         -d "$init_payload" \
+         "https://hub.docker.com/v2/repositories/$DOCKER_USER/$target_repo/" > /dev/null
+
+    retry_status=$(retry_curl -s -o /tmp/desc_sync.json -w "%{http_code}" \
+      -X PATCH -H "Authorization: JWT $TOKEN" \
+      -H "Content-Type: application/json" \
+      -d "$desc_json" \
+      "https://hub.docker.com/v2/repositories/$DOCKER_USER/$target_repo/")
+    if [[ "$retry_status" == "200" ]]; then
+      echo "✅ 描述初始化后同步成功"
+    else
+      echo "❌ 描述初始化后仍失败，状态码 $retry_status"
+      cat /tmp/desc_sync.json
+    fi
+  else
+    echo "❌ 描述同步失败，状态码 $status_code"
+    cat /tmp/desc_sync.json
+  fi
+
+  sleep 2
 done < "$CONFIG_FILE"
 
 # 如果缓存更新了，创建标记文件
