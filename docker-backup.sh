@@ -1,10 +1,11 @@
 #!/bin/bash
-# Docker 多平台镜像备份脚本 v3 (采用两阶段同步优化，支持 Digest 按需对比)
+# Docker 多平台镜像备份脚本 v3.1 (最终优化版)
+# 增加了两阶段同步、Digest 按需对比、以及更健壮的错误处理
 set -euo pipefail
 
-# --- 新增：定义可变标签列表 ---
+# --- 可配置项：定义可变标签列表 ---
 # 你可以在这里添加或修改你认为内容会变化的标签
-MUTABLE_TAGS=("latest" "debian" "stable" "edge")
+MUTABLE_TAGS=("latest" "nightly" "dev" "stable" "edge")
 
 # --- 缓存文件定义 ---
 DIGEST_CACHE_FILE="digest_cache.json"
@@ -134,7 +135,12 @@ while IFS= read -r line || [[ -n "$line" ]]; do
     tags=()
     page=1
     while :; do
-      resp=$(retry_curl "https://hub.docker.com/v2/repositories/$namespace/$image/tags?page=$page&page_size=100") || { echo "❌ 获取源标签失败，跳过仓库 $source_repo"; continue 2; }
+      # --- 错误处理优化点 ---
+      if ! resp=$(retry_curl "https://hub.docker.com/v2/repositories/$namespace/$image/tags?page=$page&page_size=100"); then
+          echo "❌ 获取源标签失败 (仓库 '$source_repo' 可能不存在或无法访问)，跳过此仓库。"
+          continue 2 # 跳出两层循环(while 和 for)，处理下一个仓库
+      fi
+      
       count=$(echo "$resp" | jq '.results | length')
       (( count == 0 )) && break
       for t in $(echo "$resp" | jq -r '.results[].name'); do tags+=( "$t" ); done
