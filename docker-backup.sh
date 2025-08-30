@@ -2,7 +2,7 @@
 # Docker 多平台镜像备份脚本 v4 (支持 Skopeo + Buildx，增强容错)
 set -euo pipefail
 
-MUTABLE_TAGS=("latest" "debian" "stable" "edge")
+MUTABLE_TAGS=("latest" "debian" "beta" "stable" "edge")
 DIGEST_CACHE_FILE="digest_cache.json"
 CACHE_UPDATED=false
 
