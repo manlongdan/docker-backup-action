@@ -1853,5 +1853,6 @@
   "cloudnas/clouddrive2:arm64-1.0.6": "sha256:d485f8ae12c1f83a9c286e6680c48e432cce9602b8a1a58856c072a22a09c4bd",
   "cloudnas/clouddrive2:amd64-1.0.6": "sha256:de3311cb6852df143b4850e8f85e43deae3df696d03eededd93bcef22790059e",
   "jxxghp/moviepilot-v2:2.10.0": "sha256:24d751fc39fb47a4dd4c77111dac2cfffc7d214aebc84ecd5ea6407f0d72fb16",
-  "jxxghp/moviepilot-v2:2.10.1": "sha256:a2cd1e4828a9d56f93353183abaaaf50c38ff188d95817418502ac0052e26186"
+  "jxxghp/moviepilot-v2:2.10.1": "sha256:a2cd1e4828a9d56f93353183abaaaf50c38ff188d95817418502ac0052e26186",
+  "deluan/navidrome:pr-5379": "sha256:aecd44364c78678803d4d33965b87bd35b479fe721182b154776c634dedd2cff"
 }
