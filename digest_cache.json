@@ -1868,5 +1868,6 @@
   "xream/sub-store:2.22.5": "sha256:411bf598a13f8d63f8913177c13e5d8715fea0e4067e891b6d9dc9cf1a8131cb",
   "xream/sub-store:2.22.6-http-meta": "sha256:014e366bcf1b327ab48625788d6cefc09d81a6246448ff5347c641be52acbabc",
   "xream/sub-store:2.22.6": "sha256:2ac4754b6063d9c0640064aebf1b6b0371535bfbeb2bc5331f02ce65f4713758",
-  "jxxghp/moviepilot-v2:2.10.4": "sha256:cc23c140f90d935c0a3d0883b6da4dc12addbf295f8bc20ff3f8ee60284c4d17"
+  "jxxghp/moviepilot-v2:2.10.4": "sha256:cc23c140f90d935c0a3d0883b6da4dc12addbf295f8bc20ff3f8ee60284c4d17",
+  "deluan/navidrome:pr-5402": "sha256:15a2f9067b3ba1abb0d34a34a561bc9e426b640a2e96d86418a3bf4436239780"
 }
