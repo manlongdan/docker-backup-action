@@ -1883,5 +1883,7 @@
   "deluan/navidrome:pr-5416": "sha256:32ff1e957e158eafb4efdc482c3f95d79e225e46b49b5a8deb7db64d5cee9abd",
   "deluan/navidrome:pr-5415": "sha256:db9e4d933496e5ac5234b0a06a0c44758f6d3cdfc8268f8783949fd219cd7417",
   "xream/sub-store:2.22.8-http-meta": "sha256:13b5a9e6f77811cfb914d01c3654053c213359c9d3cad4f7bcecd951ff80d327",
-  "xream/sub-store:2.22.8": "sha256:8c74ce11bb2074c2db888eebf1719936ab7ce2a44d8564a57c4c41dba971f583"
+  "xream/sub-store:2.22.8": "sha256:8c74ce11bb2074c2db888eebf1719936ab7ce2a44d8564a57c4c41dba971f583",
+  "deluan/navidrome:pr-5421": "sha256:48d265107e4edcf2d72524b02acb75c5a5f48c047d26fa715af38ceb144de246",
+  "deluan/navidrome:pr-5419": "sha256:16ee7165fb25aed596266ab8e3b336102a1605eafd327d24f3f44b325145c372"
 }
