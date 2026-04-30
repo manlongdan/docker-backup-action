@@ -1900,5 +1900,6 @@
   "xream/sub-store:2.22.13": "sha256:3b1a5986d12eb04b5ae309f8813adee9dbf2077ff7bc9b6ef7256f53926ba18e",
   "deluan/navidrome:pr-5436": "sha256:ce75dcc9de2ed3bd31e12cdb3824c58a41bf50ed51f8dfa0e04910d60abd8ae1",
   "jxxghp/moviepilot-v2:2.10.8": "sha256:9c87d1666f17c68180ef61b94449018afcf7e074b751ee965e1bddec4d40ac00",
-  "deluan/navidrome:pr-5441": "sha256:871a70c6c5d459253fcefa3f0ad9a239ecd4692646091ccd392d28356244f2a5"
+  "deluan/navidrome:pr-5441": "sha256:871a70c6c5d459253fcefa3f0ad9a239ecd4692646091ccd392d28356244f2a5",
+  "deluan/navidrome:pr-5442": "sha256:7529bd0a645782ff0a323941d34d17fade37b3e443a9982b9b4a24f90c23a4b7"
 }
