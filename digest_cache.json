@@ -1913,5 +1913,6 @@
   "library/nextcloud:32.0.9-fpm": "sha256:bf1293bd8da86d96911bc43b8c67f9f432c09704121cd2e43641275d07c952a0",
   "library/nextcloud:32.0.9-apache": "sha256:7ff0f1ba483b127654a28aef5dacbbda4d1b6f67952ce58a8f97bc905bc514ae",
   "library/nextcloud:32.0.9": "sha256:7ff0f1ba483b127654a28aef5dacbbda4d1b6f67952ce58a8f97bc905bc514ae",
-  "xream/sub-store:2.22.15": "sha256:ac75dc49a601a71c02b41a69a79170083f1c5f3ee6a45ce2e5848fde25529722"
+  "xream/sub-store:2.22.15": "sha256:ac75dc49a601a71c02b41a69a79170083f1c5f3ee6a45ce2e5848fde25529722",
+  "xream/sub-store:2.22.15-http-meta": "sha256:7dff9d35d47105d8fb6aeb24aa49f1cc8a48340a269eec383d056a328bc8a188"
 }
