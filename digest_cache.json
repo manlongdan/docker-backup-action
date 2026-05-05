@@ -1930,5 +1930,6 @@
   "cloudnas/clouddrive2:amd64-1.0.7": "sha256:8c0929370ea5322de88c96bdb4202125e75fc8be38e359e346bf78c55befd46a",
   "xream/sub-store:2.22.17-http-meta": "sha256:41840a46f059c858a5d1cf799a619cebfaa3d84870192381faa707899288c81a",
   "xream/sub-store:2.22.17": "sha256:0e3d4668e01fecf04e3b983a61536636b969f1ae98f68feea7a139d4e9249565",
-  "deluan/navidrome:pr-5462": "sha256:fc097fa367285b95823f5b789c1b4c9f9cb1ffdf39924a19070c5cb08dc3d1b0"
+  "deluan/navidrome:pr-5462": "sha256:fc097fa367285b95823f5b789c1b4c9f9cb1ffdf39924a19070c5cb08dc3d1b0",
+  "deluan/navidrome:pr-5463": "sha256:fcd63a4a4d45cf0b617dd188b918faab5d39c893a5b3a215068dbfddeeb4fa59"
 }
