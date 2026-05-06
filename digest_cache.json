@@ -1950,5 +1950,6 @@
   "hisatri/lyricapi:1.4.5": "sha256:b2b87f6ffba8114cd2b17abaddd2a80a7928563a88f48b3fbe8a3251be8ef242",
   "hisatri/lyricapi:1.4.4.1": "sha256:a52db5910d8a35001fc9a1b651010ff23ae4a49a7d5a6545744e6e6d4de9d2c5",
   "hisatri/lyricapi:1.4.4": "sha256:29bd91f2dc7b0ec995e3acd2ecad4f33bed3f1e3a4bb6061e61a57e3e6c1914f",
-  "hisatri/lyricapi:1.4.2": "sha256:cf18eb190156c85a74cd7dc9e727b79a00148304861d6d97e4483734adf9610a"
+  "hisatri/lyricapi:1.4.2": "sha256:cf18eb190156c85a74cd7dc9e727b79a00148304861d6d97e4483734adf9610a",
+  "daeuniverse/dae:20260506": "sha256:167b552600dd8cb98b9237d44ef59b8d2123cb82d694ba293334e15f51128bcc"
 }
