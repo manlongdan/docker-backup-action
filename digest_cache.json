@@ -1986,5 +1986,6 @@
   "xream/sub-store:2.23.2": "sha256:5a45bb3308575f59834f0552224f03471ba1bdcb6324120dafb7198a8560e497",
   "xream/sub-store:2.23.1-http-meta": "sha256:addba8e8f55fd4c3aeac8e33542c34fc7a46fca48cdb5b4ccfee53c8e29d76b7",
   "xream/sub-store:2.23.1": "sha256:e58a770bd29f0f5b2db07ad9f4f6c774f772ea1389b4b20b176b8e26a6b1d191",
-  "deluan/navidrome:pr-5492": "sha256:1d99385c0d6db9f2bcb115d75eaf2c3bcc680dcf015a6f6316a94507142f3e49"
+  "deluan/navidrome:pr-5492": "sha256:1d99385c0d6db9f2bcb115d75eaf2c3bcc680dcf015a6f6316a94507142f3e49",
+  "deluan/navidrome:pr-5495": "sha256:c542d0fb98fc5fb3dc30ff9888180911394f7dcda7f9cca705396fd531bea471"
 }
