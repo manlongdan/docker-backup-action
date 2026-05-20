@@ -2019,5 +2019,6 @@
   "xream/sub-store:2.23.14-http-meta": "sha256:a0c9d988fd0b1824ef9a2198e3586aab6b1ee899589c29e3bd5adb9595d29aed",
   "xream/sub-store:2.23.14": "sha256:74dcbeedd4280d33740a9440df4d4b05f2e9760ba0ae01cb98e764f06f129932",
   "xream/sub-store:2.23.15-http-meta": "sha256:eba3db0bb8c8e1aee7eab4d09ce82c6fc2b9d0e11a6919f968759b5a20fed422",
-  "xream/sub-store:2.23.15": "sha256:7e783442be4fa0e9619d37413849470527de73cceedf4ed95259cd25aa1b904a"
+  "xream/sub-store:2.23.15": "sha256:7e783442be4fa0e9619d37413849470527de73cceedf4ed95259cd25aa1b904a",
+  "deluan/navidrome:pr-5510": "sha256:9356289eb518f0702b6564ef05b57f8b96609ef53273569b5f83478c4a6a688c"
 }
