@@ -2046,5 +2046,7 @@
   "snowdreamtech/frps:0.69.0": "sha256:aa08b7bae289147f8a894466868facca861145217056b67f2e7bfae8aead8004",
   "xream/sub-store:2.23.20-http-meta": "sha256:0e72cfe8f49a4026cab03e32aff111dc9b7a1d9fe7b3ea7d7f25352afd90edbf",
   "xream/sub-store:2.23.20": "sha256:d14d7f560e92f030dbcbc9af557b606b0428b1ce2c469b37398af1f1f15d6a51",
-  "deluan/navidrome:pr-5521": "sha256:e0e9484a886db8efd05baddf3b3d7d9b2f82f31c796488a5888d8d515abc959e"
+  "deluan/navidrome:pr-5521": "sha256:e0e9484a886db8efd05baddf3b3d7d9b2f82f31c796488a5888d8d515abc959e",
+  "deluan/navidrome:pr-5523": "sha256:bf6d9791f4c6cdeab627fe55f87401e2a88c0c440652dc0207f16538295232d5",
+  "deluan/navidrome:pr-5522": "sha256:625bd6802e67f9fccf23d058fc9ddda7c3fb6aa4ddbe655aacc141f1c98e2245"
 }
