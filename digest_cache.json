@@ -2119,5 +2119,6 @@
   "xream/sub-store:2.24.7-http-meta": "sha256:6d39a7464bec3355540a20cd749a12c4e569b5eae3f178d6c79b0a4e33242ab4",
   "xream/sub-store:2.24.7": "sha256:a155a075ed3ea7276f460422935f4b85ff7780678d930eeecdfc367573c2ccd0",
   "revenz/fileflows:modded-26.06": "sha256:f11fdc9cec1a6b144b1aa68a6bb04be0ab8cdb4d9ea512a9200a3efd611b66f0",
-  "revenz/fileflows:26.06": "sha256:9a500acebb512c79c1157cc24ffd327b5e3e8c4d746a135b1ceb2b0caf7c8371"
+  "revenz/fileflows:26.06": "sha256:9a500acebb512c79c1157cc24ffd327b5e3e8c4d746a135b1ceb2b0caf7c8371",
+  "deluan/navidrome:pr-5573": "sha256:b75c85086032238dc1917e88f379003e2c662692767ed70b09b46debaa57ce0a"
 }
