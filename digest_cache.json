@@ -2165,5 +2165,6 @@
   "daeuniverse/dae:20260614": "sha256:f1a07235c80d43c9ac6cf1db8145acc8d4a54c695bbf01b55c60a45008b4de3b",
   "deluan/navidrome:pr-5608": "sha256:f13f52c55fa5cc7d67873893d86c2ebceb85226448e4e3d03be2757153fb83ed",
   "deluan/navidrome:pr-5607": "sha256:1ae9f43fbe1ed40a23450cafc2a959fb4cde635df5bb1dbafad24ec27db71a82",
-  "jxxghp/moviepilot-v2:2.13.9": "sha256:ffe2fa5c762373c1ea47e0ad3c2161e7614178e85341b0a8ade0e2193ee6db7a"
+  "jxxghp/moviepilot-v2:2.13.9": "sha256:ffe2fa5c762373c1ea47e0ad3c2161e7614178e85341b0a8ade0e2193ee6db7a",
+  "deluan/navidrome:pr-5609": "sha256:39bc788a616ee901f66eb94fc2b9214ae8bddb6f6ae91e2ea89f53c7d64f74b4"
 }
