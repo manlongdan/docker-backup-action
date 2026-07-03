@@ -2265,5 +2265,7 @@
   "deluan/navidrome:pr-5701": "sha256:b6fb33caa3c904f18623bd5b8d1cd3097ca2db9390d592d83a0df9b00f0afd1a",
   "jxxghp/moviepilot-v2:2.14.1": "sha256:833c898c44d9f98386121f84d6ac60464b433a8fbbfd8657960acc4927900604",
   "deluan/navidrome:pr-5703": "sha256:d0ec8fa7cd43ca31550c4d92d8770ee16a14761bd2359b7a097caff56a658687",
-  "deluan/navidrome:pr-5702": "sha256:763b3ef6ba286366b6af17467f8d6a53b55eb427319c233072e2bc8e92d944c7"
+  "deluan/navidrome:pr-5702": "sha256:763b3ef6ba286366b6af17467f8d6a53b55eb427319c233072e2bc8e92d944c7",
+  "deluan/navidrome:pr-5706": "sha256:9ebac4bf6e4af441219c02cbe1b363480d92f030cbb5273edcedbb8b5a0c740e",
+  "deluan/navidrome:pr-5704": "sha256:35715f6384409c85420af6950ef550d842a6875f4b7fa55b01f8c2ba4ebf0901"
 }
