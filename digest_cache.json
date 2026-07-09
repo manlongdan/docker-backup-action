@@ -2288,5 +2288,6 @@
   "deluan/navidrome:pr-5744": "sha256:0b1edc3afed59618a47adb34bc88a48c5b3fd1f6d81312d3e597f2407867dbbc",
   "deluan/navidrome:pr-5739": "sha256:e35d87e47c3801ba9a3faae5e8c001dab7c89f196067a8429a8bfba29ccadabb",
   "deluan/navidrome:pr-5743": "sha256:f8e429d9f40f5809531bfd026f74e800be8e67939076da46f838a8d64c41dee1",
-  "deluan/navidrome:0.63.1": "sha256:7c43af9f651654e97278be871705aae85a4ee0fa4b310337989699a8ada9b3ed"
+  "deluan/navidrome:0.63.1": "sha256:7c43af9f651654e97278be871705aae85a4ee0fa4b310337989699a8ada9b3ed",
+  "deluan/navidrome:pr-5748": "sha256:abc13b66320d04763e4601af3e21d6d5f2673acb86527ccbca86acf0d379bae8"
 }
