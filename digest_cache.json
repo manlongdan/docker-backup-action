@@ -2320,5 +2320,6 @@
   "snowdreamtech/frps:0.70.0-alpine": "sha256:67fa58fcc3af24d9cb337cd910f07f48d6ceca2071a7ad54fb5744f7899c3cdf",
   "snowdreamtech/frps:latest-rocky": "sha256:dd49183340c7b16555d51c4e704cc75442c5cf13f286c14f04fb11da591015d0",
   "snowdreamtech/frps:0.70.0-rocky": "sha256:dd49183340c7b16555d51c4e704cc75442c5cf13f286c14f04fb11da591015d0",
-  "jxxghp/moviepilot-v2:2.14.3": "sha256:5367570c29985a8da2401d07f4575568a0208ce27c88301c54c4b35240153ad9"
+  "jxxghp/moviepilot-v2:2.14.3": "sha256:5367570c29985a8da2401d07f4575568a0208ce27c88301c54c4b35240153ad9",
+  "deluan/navidrome:pr-5769": "sha256:6a7f8ab6e2018bbec9ba1a40e6ef65b4851f87fe79b4ff5451fa3bd4b66aa42c"
 }
