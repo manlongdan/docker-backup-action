@@ -2327,5 +2327,6 @@
   "xream/sub-store:2.36.6-http-meta": "sha256:899c2aea58ccb2656a8a55083fcd0e9e94c7365ee1bb01d5e54b57e6249ec44d",
   "deluan/navidrome:pr-5778": "sha256:7507bdb5ef7f76f05ec406b32a54c1ef0d76d49aff4aba137d9c0c19935b6750",
   "0xforee/nas-tools:3.5.10-debian": "sha256:6e73e5d767b69a21453107695807768b48e303dc7f0f96c3311bac1132db5d4d",
-  "0xforee/nas-tools:3.5.10": "sha256:d30df9bae42363b50551d9112c800650d8d1ac99cce39ebfb132d813eed603d5"
+  "0xforee/nas-tools:3.5.10": "sha256:d30df9bae42363b50551d9112c800650d8d1ac99cce39ebfb132d813eed603d5",
+  "deluan/navidrome:pr-5782": "sha256:4dc2edfd9f130bf5995f349e724522f1c42d3c12098c871876033f7f36399518"
 }
