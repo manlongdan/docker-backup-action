@@ -2334,5 +2334,7 @@
   "jxxghp/moviepilot-v2:2.14.4": "sha256:33540a9451e269ffa4647d0263788acab678466c64e0d65e60439015870aa563",
   "deluan/navidrome:pr-5783": "sha256:e943f43c89ccff64d90d1ea5a751048f75a1c48c8eb7634f1ff8f2fb497a2009",
   "deluan/navidrome:pr-5788": "sha256:2095ee61bdee32f6007d38a97fc493cbe51d3d66703fc0c7c3fdb310530af155",
-  "deluan/navidrome:pr-5784": "sha256:9590e314ac58be9f14e2edcf4d5597d09e3b812496de1b44eca64c4bf80f1e3a"
+  "deluan/navidrome:pr-5784": "sha256:9590e314ac58be9f14e2edcf4d5597d09e3b812496de1b44eca64c4bf80f1e3a",
+  "deluan/navidrome:pr-5791": "sha256:e75f311d35c143d5291e6086abf81840b31b1a77da015974fa7fe67eb61e065e",
+  "deluan/navidrome:pr-5790": "sha256:cf25da6cf2c38ea4b8dc308f3fd9ed611641f7d652518d9e696a902f192de981"
 }
