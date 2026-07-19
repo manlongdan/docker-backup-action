@@ -2367,5 +2367,6 @@
   "deluan/navidrome:pr-5808": "sha256:079beba839d070ae6c574f22859ac22b6992c0e69976e1ccfb8704847e9c217c",
   "deluan/navidrome:pr-5805": "sha256:92c91f30d0706d4a9bf4b19fbd2cdbdd3991e46cfe71f8c47a8543511e8b5583",
   "cloudnas/clouddrive2:arm32-0.9.8": "sha256:da59583553c61f3b5cccb54d20dcff69c6b0ff99dfcf32df08f152d50567bd90",
-  "openlistteam/openlist:v4.1.5-lite-ffmpeg": "sha256:9d1735cfc1093181bb14241784ff777be1a0ef313d7e7237774bf3cf886c8499"
+  "openlistteam/openlist:v4.1.5-lite-ffmpeg": "sha256:9d1735cfc1093181bb14241784ff777be1a0ef313d7e7237774bf3cf886c8499",
+  "deluan/navidrome:pr-5818": "sha256:631f7aa3204a194c1ec6deaccd44ecd1df5647d8994925dffcd3a5f13ea32edc"
 }
