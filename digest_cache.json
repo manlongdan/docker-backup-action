@@ -2418,5 +2418,6 @@
   "deluan/navidrome:pr-5847": "sha256:1dc4b3e4e87992737057f007665fc11bbb4556ceac0392b721603e4573618ea2",
   "jxxghp/moviepilot-v2:2.15.1": "sha256:d097f30d7f46be88fa3918dd8d0af1c511ab44c6b205c4e6f465e4f04bea851d",
   "xream/sub-store:2.36.23": "sha256:972029aad7e1e145d8472be8573519b73b3b0f407c75f85526f0807a48233c5f",
-  "xream/sub-store:2.36.23-http-meta": "sha256:4ccc2fc137590f6d0773b3d4ca506086c9f458d386f4c3d690dcd3b90672194d"
+  "xream/sub-store:2.36.23-http-meta": "sha256:4ccc2fc137590f6d0773b3d4ca506086c9f458d386f4c3d690dcd3b90672194d",
+  "deluan/navidrome:pr-5865": "sha256:d8da00adcee64dabb378eeadd61eae8c0c4d1b9da8e6740ac5bc326d1d52d2eb"
 }
