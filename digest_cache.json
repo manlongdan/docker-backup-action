@@ -2443,5 +2443,6 @@
   "xream/sub-store:2.36.31": "sha256:09fdbfc32a964f7515203b9835795ac3236fd3ad0e0659900d6d6f995b0f54ff",
   "xream/sub-store:2.36.31-http-meta": "sha256:dadc0b0c6aeb3e77e294ceca393806c2c7e5ae5a5cf2447e163555895f043d8f",
   "xream/sub-store:2.36.30": "sha256:0e9fa0c95617a0d2dd3da8a8f0980fc38eb7561fecf3ce7eb156732a55b7898b",
-  "xream/sub-store:2.36.30-http-meta": "sha256:56f7bf5ef179585d3e816e04175a79b56889dc27950eac4e076674e12664531f"
+  "xream/sub-store:2.36.30-http-meta": "sha256:56f7bf5ef179585d3e816e04175a79b56889dc27950eac4e076674e12664531f",
+  "deluan/navidrome:pr-5899": "sha256:7e1e1ab0ac40c990643bd12f1f8e09a2763961ec64d3a39d2bd9ed355264133b"
 }
