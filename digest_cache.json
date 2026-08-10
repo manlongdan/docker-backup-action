@@ -2461,5 +2461,6 @@
   "deluan/navidrome:pr-5908": "sha256:e30584c084929580a1c57fc1b9ca280b70d317cec7e2ed4b0088935651456620",
   "deluan/navidrome:pr-5912": "sha256:776a8d64abd77f85091ee0afa4c68422cba30939023fdb93b38f4862ed98158a",
   "xream/sub-store:2.36.32": "sha256:bd2bc32368bd52e4fa2ee49f4feb81fa4404aeb4c1ad9fb0f87e7bab1394d6d1",
-  "xream/sub-store:2.36.32-http-meta": "sha256:087f48e7b62474b3ffec9778550e78e1e7667100ae4dae2cc052970cefd8c01e"
+  "xream/sub-store:2.36.32-http-meta": "sha256:087f48e7b62474b3ffec9778550e78e1e7667100ae4dae2cc052970cefd8c01e",
+  "deluan/navidrome:pr-5927": "sha256:e552071ccc9a8e6ddcb5206e5cb586baf94a37b8ab2520ce3c076c3b3e0ea350"
 }
