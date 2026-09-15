@@ -2554,5 +2554,7 @@
   "cloudnas/clouddrive2:1.0.17": "sha256:c97b63216555c871029b39ad4ac92f155f82cd358d6576c0fffaf95ec12369ce",
   "cloudnas/clouddrive2:arm32-1.0.17": "sha256:9f1e6e106419235f23434b0d2de6a82348337a5cd44f27b3036fd33d05a85509",
   "cloudnas/clouddrive2:arm64-1.0.17": "sha256:10e95e08a13f3e4a619f3cd1956db59c71d787201ae268a416818b1c2f2091b6",
-  "cloudnas/clouddrive2:amd64-1.0.17": "sha256:00d79caaf5f405ff1b2fb31eaa90eb0be50106ad82d01532c22f927f50129022"
+  "cloudnas/clouddrive2:amd64-1.0.17": "sha256:00d79caaf5f405ff1b2fb31eaa90eb0be50106ad82d01532c22f927f50129022",
+  "nyanmisaka/jellyfin:260915-arm64-testing": "sha256:88b44dc2696ccf4ac752acdee32ba82fd7277e50b97149c44b50c4501b700cd8",
+  "nyanmisaka/jellyfin:260915-amd64-testing": "sha256:8e4b47609223f49deb191f6ff1034494b7307002802eb6b525825eff050f3d56"
 }
