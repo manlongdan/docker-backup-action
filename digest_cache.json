@@ -2585,5 +2585,7 @@
   "cloudnas/clouddrive2:amd64-1.1.1": "sha256:ec7f5b1a393ee31f3f0be5281ebb360653dd36c54abfba89adff9c43026ed92e",
   "amilys/embyserver:4.10.1.0-arm64": "sha256:ba56832c24ead58fe324b6e914e457d97e3d16aa18d9cdb65d648da61e4bcda3",
   "amilys/embyserver:4.10.1.0-amd64": "sha256:9c457402dcf38b1fb116bfaa1b5a2e9c2eb8001adc2e7743e86cbe63d178c433",
-  "superng6/qbittorrentee:5.2.4.10": "sha256:9e102f0baf6b48a94950cee5d89555f0fde28b5bb90d091be9e650052a7be32b"
+  "superng6/qbittorrentee:5.2.4.10": "sha256:9e102f0baf6b48a94950cee5d89555f0fde28b5bb90d091be9e650052a7be32b",
+  "nyanmisaka/jellyfin:261006-arm64-testing": "sha256:6c3d1b6047ef15872551928915ace4c1d3e7b6ec50a2a5bc1b9febdf63922489",
+  "nyanmisaka/jellyfin:261006-amd64-testing": "sha256:d2f219cd552aaf7df74846b80f99bdcd2e8f5679ead305ab06c920685a4193b8"
 }
